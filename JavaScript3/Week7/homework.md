@@ -1,49 +1,49 @@
 # Homework Week 7
 
-## Step 1: Map, filter, reduce, and =>
+## Create your own json file
+Create your own json file with something that interests you. Maybe that could be computers, pets, music etc.
 
-1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
+Remember to validat the json using a tool like fx this: https://jsonlint.com/
 
-    Your solution could be something like this:
-    ```js
-    let numbers = [1, 2, 3, 4];
-    let newNumbers = [];
+## Github data fetching site
 
-    for(let i = 0; i < numbers.length; i++) {
-        if(numbers[i] % 2 !== 0) {
-            newNumbers[i] = numbers[i] * 2;
-        }
-    }
+Make a website that fetches (= to get) data asynchronously.
 
-    console.log("The doubled numbers are", newNumbers); // [2, 6]
+1) Create a new website with external js file
 
-    ```
+2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
 
-    rewrite the above program using `map` and `filter` don't forget to use `=>`
+3) Create a function that fetches repositories from https://api.github.com/orgs/HackYourFuture-CPH/repos) using the fetch api. 
 
-2. Using [this json file](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, build a function which does the following:
+4) Display the data that you get from the Github API on your web page. That could fx be the repo title, the url, when it was created etc.
 
-    1. Give each movie a `tag`: Good (>= 7), Average (>= 4 and < 7), Bad (< 4) based on the ratings.
-    1. Calculate the average rating of all the movies.
-    1. Count the total number of Good, Average and Bad movies.
-    1. Count he number of movies containing the following keywords: `["The", "dog", "who", "is", "not", "a", "man"]`. Can you make sure the search is case insensitive?
-    1. Count the number of movies made between 1980-1989 (including both the years).
+5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
 
-## Step 2: Continuing with the previous exercise
+6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture-CPH/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
 
-- Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
-- For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
+- Add map, filter to your existing app to build an application that loads data from github, filters out based on a certain value. Fx you could filter based on something a user wrote in an input field. 
+
 - Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
 
-## Step 3: **Some freeCodeCamp challenges:**
+## Giphy api
+Create a site where a user can search for a gif. Using the giphy api: https://developers.giphy.com/docs/
+The user can write the gif he is looking for, click a button and then a gif will be found and shown to the user. 
 
-1. [Comparisons with the Logical And Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator/)
+Try break this problem into smaller problems and write down how you are going to solve the problem BEFORE you start coding. 
 
-2. [Record Collection](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection/)
+## Find a cool api
+Find a cool api and explain how it works and what kind of data the api sends to the user. Is it an array, an object, string. How is the data structure. Is it fx an array of objects or how is it structured. 
 
-3. [Iterate over Arrays with map](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
+There are a few examples of apis here:
+https://github.com/HackYourFuture/teaching_tips_tricks#javascript-apis
 
-## Step 4: Hand in Homework:
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
+
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?

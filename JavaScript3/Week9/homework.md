@@ -1,12 +1,5 @@
 # Homework Week 9
 
-## Step 1: Continuing on previous weeks' homework
-The solutions to last week's homework are available in [this folder](https://github.com/HackYourFuture-CPH/JavaScript/tree/class06/JavaScript3/Week9/More-homework/last-homework-V2).
-
-Continuing on last weeks movies solution, add the following features on top:
-1. Create a way to select movies by decade (hint: you can use something similar to how movies are filtered by the rating tag).
-1. Similarly, allow the user to sort the movies by: Name, Rating or Year (hint: you can create a new `select` element as well, listen for user interaction and then apply `array.sort()` at the end). Optional
-
 ## Step 2: Getting into promises
 Rewrite the following code (using promise and other control flow tools/features):
 
@@ -115,6 +108,11 @@ The `createProduct` factory function should get a method that can change the nam
 ### Part 4, optional
 Be creative! Create some cool/weird/quirky functionality of either the `createProduct` or the `createShoppingCart` factory function.
 
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
 ## Step 4: Hand in Homework:
 Go over your homework one last time:
