@@ -1,7 +1,12 @@
 # Homework Week 7
 
+## Why should i even do this homework?
+Working with json and api's is the way modern **javascript application's communicate with servers**. That can be either getting some data but also updating or creating new data. 
+
+It is how autocomplete can receive suggestions for a search query and how infinite scroll can keep loading new posts. 
+
 ## Create your own json file
-Create your own json file with something that interests you. Maybe that could be computers, pets, music etc.
+Create your own json file with something that **interests you**. Maybe that could be computers, pets, music etc.
 
 Remember to validat the json using a tool like fx this: https://jsonlint.com/
 
@@ -15,7 +20,7 @@ Make a website that fetches (= to get) data asynchronously.
 
 3) Create a function that fetches repositories from https://api.github.com/orgs/HackYourFuture-CPH/repos) using the fetch api. 
 
-4) Display the data that you get from the Github API on your web page. That could fx be the repo title, the url, when it was created etc.
+4) Display the data that you get from the Github API on your web page. That could fx be the **repo title, the url, when it was created etc.**
 
 5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
 
@@ -25,17 +30,19 @@ Make a website that fetches (= to get) data asynchronously.
 
 - Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
 
-## Giphy api
-Create a site where a user can search for a gif. Using the giphy api: https://developers.giphy.com/docs/
-The user can write the gif he is looking for, click a button and then a gif will be found and shown to the user. 
-
-Try break this problem into smaller problems and write down how you are going to solve the problem BEFORE you start coding. 
-
 ## Find a cool api
-Find a cool api and explain how it works and what kind of data the api sends to the user. Is it an array, an object, string. How is the data structure. Is it fx an array of objects or how is it structured. 
+Find a cool api and **explain how it works** and what kind of **json data** the api responds with. Is it an array, an object, a string. How is the data structure. Is it fx an array of objects or how is it structured. 
 
 There are a few examples of apis here:
 https://github.com/HackYourFuture/teaching_tips_tricks#javascript-apis
+
+## Giphy api
+Create a site where a **user can search for any word**. When searching a word the application will **find a gif** using the **searched word** using the giphy api: https://developers.giphy.com/docs/
+Here is how it is going to work: The user can write some text indicating the gif he is looking for, click a button and then a gif will be found (using the searched word) and the gif will be displayed to the user. 
+
+Try break this problem into **smaller problems** and write down how you are going to solve the problem **BEFORE you start coding.** 
+
+![Coding](https://media.giphy.com/media/1C8bHHJturSx2/giphy.gif)
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/

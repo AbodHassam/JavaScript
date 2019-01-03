@@ -1,5 +1,9 @@
 # Homework Week 9
 
+## So why should i do this homework?
+Using constructor functions help with structuring code. It is one of many **design patterns**. The reason we use the constructr function design pattern is because it is a **solid desing pattern** first of. Second it **connects everything** you have learned in js: objects, function, properties, methods, keys, arrays. If you get how a constructor function work then you get how javascript work!
+
+
 ## Step 2: Getting into promises
 Rewrite the following code (using promise and other control flow tools/features):
 
@@ -114,15 +118,18 @@ The feedback should be given after the homework has been handed in preferably la
  
 To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-## Step 4: Hand in Homework:
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?  
+![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)  
+If you can answer yes to the above questions then you are ready to hand in the homework:<br/>
+- Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
+- Add your homework files in the Javascript/javascript3/week7 folder
+- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+---
 
-If you can answer yes to the above questions then you are ready to hand in the homework:
-* Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
-* Add your homework files in the Javascript/javascript3/week9 folder
-* To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+🎉
