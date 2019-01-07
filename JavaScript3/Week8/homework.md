@@ -16,7 +16,7 @@ Here is an example: `getPromise(3000)` will return a promise that resolves after
 Use the `getPromise` to log out the string `I am called asynchronously` after 6 seconde.
 
 ### Transforming div
-Create a div that has a transition on 3 seconds on the `tranform` attribute (in css). 
+Create a div that has a transition on 3 seconds on the `transform` attribute (in css). 
 If we now manually in the devtools change the `transform` to `translateX(1000px)` we will see the div move 1000 pixels to the right. Lets create that functionality when clicking on the div. So a user clicks the div and it slides to the right. Cool. 
 
 Now what if we after the div had slided out wanted to create some functionality. That could fx be slide another div to the right. Lets use promises for that and lets use the function we already created! When a user clicks the div, lets call the `getPromise(3000)` assign the return (which is a promise) that to a variable. In the resolve of that promise we want to log out the following: "Div has slided to the right!". 
