@@ -1,10 +1,6 @@
 # Homework
 
-## Step 1: Recap/Read
-
-- Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
-- Go through the review of [last week](../Week1/review.md) (Work in progress, update this week :wrench:)
-- Go through the review of [this week](../Week2/review.md) (work in progress, update this week :nut_and_bolt:)
+## Why should i even do this homework?
 
 
 ## Step 2: Javascript warmup part one
